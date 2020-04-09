@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
-  max-width: 600px;
-  margin: 60px auto;
+  max-width: 500px;
+  margin: 30px auto;
 
   form {
     margin-top: 30px;
