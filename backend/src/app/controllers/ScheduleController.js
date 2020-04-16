@@ -18,6 +18,9 @@ class ScheduleController {
 
     const parsedDate = parseISO(date);
 
+    console.log("USER ID: " + req.userId);
+    console.log("DATE: " + parsedDate);
+
     const appointments = await Appointment.findAll({
       where: {
         provider_id: req.userId,
